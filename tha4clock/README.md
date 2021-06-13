@@ -1,2 +1,2 @@
 # Output of THA4
-![Output of THA4](clock.PNG)
+![Output of THA4](clock.png)
