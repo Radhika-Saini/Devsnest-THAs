@@ -35,7 +35,7 @@ function bookSeats(){
     remainingSeatsElement.textContent=remainingSeats;
 }
 
-function unbookSeats(){
+function unBookSeats(){
     bookedSeats-=1;
     remainingSeats+=1;
 
