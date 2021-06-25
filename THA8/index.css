@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    color: white;
+    background-color: black;
+    background: url('Assets/Pokemon-Go-3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: contain;
+}
+
+.score-card {
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+.moves {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #231E23;
+    color: white;
+    padding: 10px;
+}
+.move:active {
+    transform: scale(.97);
+}
+.score {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #231E23;
+    color: white;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 5px;
+}
+
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    height:500px;
+    width: 800px;
+    margin: 20px auto;
+    perspective: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: contain;
+
+}
+.memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.33% - 10px);
+    margin: 5px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform .8s;
+}
+
+.memory-card:active {
+    transform: scale(.97);
+}
+
+.front-face, .back-face {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.flip {
+    transform: rotateY(180deg);
+}
+.front-face {
+    transform: rotateY(180deg);
+}
