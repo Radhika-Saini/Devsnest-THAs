@@ -1,0 +1,10 @@
+Run Redis commands
+SET
+GET
+SETEX
+EXPIRE
+TTL
+DEL
+KEY *
+SET
+ARRAY
