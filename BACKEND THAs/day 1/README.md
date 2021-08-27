@@ -1,4 +1,4 @@
 RUN REDIS COMMANDS
 
 # OUTPUT
-![Output](DAY1 BACKEND.png)
+![Output](DAY1-BACKEND.png)
