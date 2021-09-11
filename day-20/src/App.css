@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.App {
+  background-image: url("https://media.istockphoto.com/photos/food-background-picture-id936991552");
+  background-repeat: no-repeat;
+  background-size:100%;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.heading-text {
+  font-size: 70px;
+  margin-top: 2rem;
+  margin-bottom: 20px;
+}
+
+.Container{
+  overflow: auto;
+  padding: 50px;
+  width: 550px;
+  height: 500px;
+  margin-top: 2rem;
+  background-color: rgb(240, 69, 69);
+  border: 3px solid black;
+}
+/*
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
