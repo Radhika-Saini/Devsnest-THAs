@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.App {
+  background-color: yellow;
+  height: 100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.Container{
+  overflow: auto;
+  padding: 50px;
+  width: 550px;
+  height: 500px;
+  margin-top: 2rem;
+  background-color: rgb(240, 69, 69);
+  border: 3px solid black;
+}
